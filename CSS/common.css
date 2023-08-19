@@ -1,0 +1,171 @@
+body{
+    background-color: #f5f5f5;
+}
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+}
+.shortcut{
+    height: 56px;
+    background-color: #333;
+}
+.shortcut .wrapper ul li{
+    float: right;
+    width: 87px;
+    height: 56px;
+}
+.shortcut .wrapper ul li a{
+    font-size: 14px;
+    padding-right: 15px;
+    line-height: 56px;
+    text-align: center;
+    color: #dcdcdc;
+    border-right: 1px solid #5a5a5a;
+}
+.shortcut .wrapper ul li a span{
+    background-position: -160px -70px;
+    display: inline-block;
+    width: 11px;
+    height: 16px;
+    margin-right: 9px;
+    background-image: url(../images/sprites.png);
+    vertical-align: middle;
+}
+.header{
+    height: 130px;
+    background-color: #fff;
+}
+.header .wrapper{
+    height: 130px;
+   
+}
+.header .wrapper img{
+    float: left;
+    margin: 30px 40px 25px 33px;
+    margin-left: 25px;
+    width: 205px;
+    height: 70px;
+}
+.header .wrapper li{
+    float: left;
+}
+.header .wrapper li a{
+    margin-right: 48px;
+    font-size: 16px;
+    line-height: 130px;
+    color: #333;
+    padding-bottom: 9px;
+}
+.header .wrapper li a:hover{
+    border-bottom: 1px solid #27ba9b;
+    color: #27ba9b;
+}
+.header .wrapper .gwc{
+    float: right;
+    margin-top: 60px;
+    background-position: -120px -70px;
+    background-image: url(../images/sprites.png);
+    width: 23px;
+    height: 21px;
+}
+.header .wrapper div{
+    float: right;
+    position: relative;
+    margin-top: 54px;
+    margin-left: 34px;
+    width: 172px;
+    height: 30px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.header .wrapper .ss{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    background-position: -80px -70px;
+    background-image: url(../images/sprites.png);
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    
+}
+.header .wrapper input{
+    padding-left: 23px;
+    width: 154px;
+    height: 28px;
+}
+.header .wrapper input::placeholder{
+    font-size: 14px;
+    color: #ccc;
+}
+.footer{
+    height: 342px;
+    background-color: #333;
+}
+.footer .wrapper .wrapper{
+    height: 173px;
+    border-bottom: 3px solid #434343;
+}
+.footer .wrapper .wrapper div{
+    float: left;
+    margin-top: 58px;
+    height: 58px;
+   
+}
+.footer .f1{
+    background-image: url(../images/sprites.png);
+    background-position: 0 0;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+}
+.footer .f2{
+    background-image: url(../images/sprites.png);
+    background-position: -130px 0;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+}
+.footer .f3{
+    background-image: url(../images/sprites.png);
+    background-position: -65px 0;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+}
+.footer div span{
+    margin-left: 19px;
+    font-size: 28px;
+    line-height: 58px;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+}
+.pp1{
+    margin-left: 117px;
+}
+.ff{
+    margin-left: 182px;
+}
+.footer .wrapper .bottom{
+    float: left;
+    margin-top: 40px;
+    margin-left:352px;
+    height: 48px;
+}
+.footer .wrapper .bottom a{
+    padding-right: 11px;
+    margin-right: 11px;
+    font-size: 14px;
+    color: #999;
+    border-right: 1px solid #434343;
+}
+.footer .wrapper .bottom a:last-child{
+    border: n;
+}
+.footer .wrapper .bottom span{
+    display: inline-block;
+    width: 537px;
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+}
